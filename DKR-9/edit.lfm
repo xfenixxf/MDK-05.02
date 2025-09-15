@@ -1,0 +1,148 @@
+object fEdit: TfEdit
+  Left = 494
+  Height = 367
+  Top = 230
+  Width = 397
+  BorderStyle = bsDialog
+  Caption = 'Редактор записи склада'
+  ClientHeight = 367
+  ClientWidth = 397
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 20
+    Top = 0
+    Width = 225
+    Caption = 'Укажите наименование памяти:'
+  end
+  object eName: TEdit
+    Left = 8
+    Height = 28
+    Top = 24
+    Width = 380
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 20
+    Top = 56
+    Width = 144
+    Caption = 'Укажите тип памяти:'
+  end
+  object Counts: TEdit
+    Left = 8
+    Height = 28
+    Top = 136
+    Width = 210
+    NumbersOnly = True
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 20
+    Top = 112
+    Width = 98
+    Caption = 'Укажите цену:'
+  end
+  object CBNote: TComboBox
+    Left = 8
+    Height = 28
+    Top = 80
+    Width = 210
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      'DDR1'
+      'DDR2'
+      'DDR3'
+      'DDR4'
+      'DDR5'
+    )
+    ReadOnly = True
+    TabOrder = 2
+    Text = 'DDR1'
+  end
+  object bSave: TBitBtn
+    Left = 8
+    Height = 30
+    Top = 328
+    Width = 160
+    Caption = 'Сохранить '
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 3
+  end
+  object bCancel: TBitBtn
+    Left = 232
+    Height = 30
+    Top = 328
+    Width = 160
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 20
+    Top = 224
+    Width = 187
+    Caption = 'Укажите дату поступления:'
+  end
+  object Date: TDateTimePicker
+    Left = 8
+    Height = 28
+    Top = 248
+    Width = 99
+    CenturyFrom = 1941
+    MaxDate = 2958465
+    MinDate = -53780
+    TabOrder = 5
+    TrailingSeparator = False
+    TextForNullDate = 'NULL'
+    LeadingZeros = True
+    Kind = dtkDate
+    TimeFormat = tf24
+    TimeDisplay = tdHMS
+    DateMode = dmComboBox
+    Date = 45823
+    Time = 0.729698032409942
+    UseDefaultSeparators = True
+    HideDateTimeParts = []
+    MonthNames = 'Long'
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 20
+    Top = 168
+    Width = 151
+    Caption = 'Укажите количкество:'
+  end
+  object Counts1: TEdit
+    Left = 8
+    Height = 28
+    Top = 192
+    Width = 210
+    NumbersOnly = True
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 20
+    Top = 280
+    Width = 251
+    Caption = 'Память новая или использованная:'
+  end
+  object News: TCheckBox
+    Left = 8
+    Height = 24
+    Top = 304
+    Width = 65
+    Caption = 'Новая'
+    TabOrder = 7
+  end
+end

@@ -1,0 +1,230 @@
+object Form1: TForm1
+  Left = 615
+  Height = 455
+  Top = 599
+  Width = 439
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 455
+  ClientWidth = 439
+  DesignTimePPI = 120
+  LCLVersion = '3.8.0.0'
+  object Stroka1: TEdit
+    Left = 17
+    Height = 37
+    Top = 48
+    Width = 404
+    AutoSize = False
+    Enabled = False
+    TabOrder = 0
+    Text = '0 '
+  end
+  object del: TButton
+    Left = 17
+    Height = 49
+    Top = 100
+    Width = 143
+    Caption = '<-'
+    TabOrder = 1
+    OnClick = delClick
+  end
+  object num7: TButton
+    Left = 17
+    Height = 49
+    Top = 168
+    Width = 61
+    Caption = '7'
+    TabOrder = 2
+    OnClick = ClickBut
+  end
+  object num4: TButton
+    Left = 17
+    Height = 49
+    Top = 240
+    Width = 61
+    Caption = '4'
+    TabOrder = 3
+    OnClick = ClickBut
+  end
+  object num1: TButton
+    Left = 17
+    Height = 49
+    Top = 308
+    Width = 61
+    Caption = '1'
+    TabOrder = 4
+    OnClick = ClickBut
+  end
+  object num8: TButton
+    Left = 99
+    Height = 49
+    Top = 168
+    Width = 61
+    Caption = '8'
+    TabOrder = 5
+    OnClick = ClickBut
+  end
+  object num5: TButton
+    Left = 99
+    Height = 49
+    Top = 240
+    Width = 61
+    Caption = '5'
+    TabOrder = 6
+    OnClick = ClickBut
+  end
+  object num2: TButton
+    Left = 99
+    Height = 49
+    Top = 308
+    Width = 61
+    Caption = '2'
+    TabOrder = 7
+    OnClick = ClickBut
+  end
+  object ce: TButton
+    Left = 184
+    Height = 49
+    Top = 100
+    Width = 61
+    Caption = 'ce'
+    TabOrder = 8
+    OnClick = ceClick
+  end
+  object num9: TButton
+    Left = 184
+    Height = 49
+    Top = 168
+    Width = 61
+    Caption = '9'
+    TabOrder = 9
+    OnClick = ClickBut
+  end
+  object num6: TButton
+    Left = 184
+    Height = 49
+    Top = 240
+    Width = 61
+    Caption = '6'
+    TabOrder = 10
+    OnClick = ClickBut
+  end
+  object num3: TButton
+    Left = 184
+    Height = 49
+    Top = 308
+    Width = 61
+    Caption = '3'
+    TabOrder = 11
+    OnClick = ClickBut
+  end
+  object c: TButton
+    Left = 270
+    Height = 49
+    Top = 100
+    Width = 61
+    Caption = 'c'
+    TabOrder = 12
+    OnClick = cClick
+  end
+  object delen: TButton
+    Left = 270
+    Height = 49
+    Top = 168
+    Width = 61
+    Caption = '/'
+    TabOrder = 13
+    OnClick = ClickZnak
+  end
+  object ymn: TButton
+    Left = 270
+    Height = 49
+    Top = 240
+    Width = 61
+    Caption = '*'
+    TabOrder = 14
+    OnClick = ClickZnak
+  end
+  object minus: TButton
+    Left = 270
+    Height = 49
+    Top = 308
+    Width = 61
+    Caption = '-'
+    TabOrder = 15
+    OnClick = ClickZnak
+  end
+  object Kor: TButton
+    Left = 360
+    Height = 49
+    Top = 100
+    Width = 61
+    Caption = 'Кор'
+    TabOrder = 16
+    OnClick = KorClick
+  end
+  object kvadr: TButton
+    Left = 360
+    Height = 49
+    Top = 168
+    Width = 61
+    Caption = 'x^2'
+    TabOrder = 17
+    OnClick = kvadrClick
+  end
+  object deleniena0: TButton
+    Left = 360
+    Height = 49
+    Top = 240
+    Width = 61
+    Caption = '1/x'
+    TabOrder = 18
+    OnClick = deleniena0Click
+  end
+  object pound: TButton
+    Left = 184
+    Height = 49
+    Top = 376
+    Width = 61
+    Caption = ','
+    TabOrder = 19
+    OnClick = poundClick
+  end
+  object plus: TButton
+    Left = 270
+    Height = 49
+    Top = 376
+    Width = 61
+    Caption = '+'
+    TabOrder = 20
+    OnClick = ClickZnak
+  end
+  object ravno: TButton
+    Left = 360
+    Height = 117
+    Top = 308
+    Width = 61
+    Caption = '='
+    TabOrder = 21
+    OnClick = ravnoClick
+  end
+  object num0: TButton
+    Left = 17
+    Height = 49
+    Top = 376
+    Width = 143
+    Caption = '0'
+    TabOrder = 22
+    OnClick = ClickBut
+  end
+  object Stroka2: TEdit
+    Left = 17
+    Height = 37
+    Top = 16
+    Width = 404
+    AutoSize = False
+    Enabled = False
+    TabOrder = 23
+  end
+end
